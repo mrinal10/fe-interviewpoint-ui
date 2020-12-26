@@ -1,4 +1,5 @@
 import './App.css';
+import Headers from './Headers/Headers';
 import Login from './Login/Login';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
+          <Headers/>
           <Login/>
         </div>
       </header>
